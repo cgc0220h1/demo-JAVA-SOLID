@@ -9,6 +9,8 @@ import com.solid.srp.User;
 logic trong việc validator cũng không phải can thiệp vào phương thức saveUser để thay đổi
 * Đoạn code dưới đã thoả mãn nguyên tắc OCP vì vẫn mở rộng, nâng cấp phương thức
 saveUser mà không phải can thiệp vào class UserServiceVersion2
+* Class này cũng đã thoả nguyên lý Đơn trách nhiệm SRP vì các thao tác đã được tách nhỏ
+thành các class riêng biệt
 */
 
 public class UserServiceVersion2 {
